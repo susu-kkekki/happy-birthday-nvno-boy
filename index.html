@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCED BY NVNO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://fav.farm/🎹" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <audio id="studio-beat" src="beat.mp3" preload="auto"></audio>
+
+    <div id="studio-wrapper">
+        <header id="studio-header">
+            <h1 class="studio-logo">NVNO || 19</h1>
+            <div class="status-panel">
+                <span id="system-status" class="studio-status">STATUS: SEQUENCER LOCKED</span>
+                <span id="step-counter" class="step-badge">STEPS: 0 / 19</span>
+            </div>
+        </header>
+
+        <main class="control-room">
+            <div class="keyboard-container">
+                <p class="instruction">Play the flashing neon sequence to unlock the master cut:</p>
+                
+                <div id="midi-keyboard" class="piano-keys">
+                    <div class="key white-key" data-key="0" data-note="261.63" onclick="handleKeyClick(0)"></div>
+                    <div class="key white-key" data-key="1" data-note="293.66" onclick="handleKeyClick(1)"></div>
+                    <div class="key white-key" data-key="2" data-note="329.63" onclick="handleKeyClick(2)"></div>
+                    <div class="key white-key" data-key="3" data-note="349.23" onclick="handleKeyClick(3)"></div>
+                    <div class="key white-key" data-key="4" data-note="392.00" onclick="handleKeyClick(4)"></div>
+                    <div class="key white-key" data-key="5" data-note="440.00" onclick="handleKeyClick(5)"></div>
+                    <div class="key white-key" data-key="6" data-note="493.88" onclick="handleKeyClick(6)"></div>
+                    <div class="key white-key" data-key="7" data-note="523.25" onclick="handleKeyClick(7)"></div>
+                </div>
+            </div>
+        </main>
+
+        <section id="blessing-screen" class="hidden-element">
+            <div class="producer-card">
+                <h2 class="neon-pink-text">The Masterpiece</h2>
+                
+                <div class="producer-photo">
+                    <img src="baby.jpeg" alt="Twanano producing as a baby">
+                </div>
+
+                <p class="blessing-body">
+                    Twanano, turning 19 means stepping into the master arrangement God has set for you. 
+                    Every track, loop, and breakdown in your life is precisely mixed by the Creator. 
+                    May this year bring perfect harmony, heavy bass, and infinite creative downloads.
+                    <br><br>
+                    <strong>Happy 19th Birthday, Producer Nvno!</strong>
+                </p>
+                <button class="reset-btn" onclick="location.reload()">Reset Session</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
