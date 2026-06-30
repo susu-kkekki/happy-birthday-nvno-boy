@@ -1,6 +1,6 @@
 # Twanano's 19th Birthday 💕
 
-A neon-themed browser experience built for a birthday celebration. Users follow a sequence of flashing piano keys to unlock an audio beat and reveal a final birthday blessing.
+A neon-themed browser experience built for Twanano's birthday celebration. Users follow a sequence of flashing piano keys to unlock an audio beat and reveal a final birthday blessing.
 
 ## Files
 
@@ -28,3 +28,7 @@ A neon-themed browser experience built for a birthday celebration. Users follow 
 - Designed for a birthday project titled **Nano Boy**.
 - Built with HTML, CSS, and JavaScript.
 - Beat is GTA Type Beat by Dyalla
+
+## Author
+
+Made with lots of love for my baby brother.
