@@ -32,3 +32,5 @@ A neon-themed browser experience built for Twanano's birthday celebration. Users
 ## Author
 
 Made with lots of love for my baby brother.
+
+~ Ntsako Lydia Mashaba 
