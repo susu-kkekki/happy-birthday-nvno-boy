@@ -29,6 +29,12 @@ A neon-themed browser experience built for Twanano's birthday celebration. Users
 - Built with HTML, CSS, and JavaScript.
 - Beat is GTA Type Beat by Dyalla
 
+## LICENSE 
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+
+---
+
 ## Author
 
 Made with lots of love for my baby brother.
